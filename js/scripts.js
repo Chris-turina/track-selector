@@ -56,6 +56,7 @@ $(document).ready(function(){
     var totalScore = scoreOne + scoreTwo + scoreThree + scoreFour +scoreFive;
       if (totalScore <= 8 || totalScore === 8) {
         var output = "css-desgin"
+        $("#open.css").open();
         $(".name").text(fullName);
         $("#css-desgin").show();
         $("#answer").show();
