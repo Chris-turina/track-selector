@@ -73,9 +73,21 @@ $(document).ready(function(){
     });
   });
 
-  //css-desgin
+  //css-desgin-html
   $(".clickable").click(function(){
     $("#css-pic-showing").fadeToggle();
     $("#css-pic-hidden").fadeToggle();
+  });
+
+  //java-andriod-html
+  $(".clickable").click(function(){
+    $("#java-pic-showing").slideToggle();
+    $("#java-pic-hidden").slideToggle();
+  });
+
+  //c#-.net-html
+  $(".clickable").click(function(){
+    $("#csharp-pic-showing").fadeToggle();
+    $("#csharp-pic-hidden").fadeToggle();
   });
 });

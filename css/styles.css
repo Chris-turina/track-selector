@@ -29,8 +29,18 @@ body {
   padding: 10px;
 }
 
+.clickable {
+  font-weight: bolder;
+  color: blue;
+  text-decoration: underline;
+}
+
 /*css/desgin webpage*/
+#css-pic-hidden {
+  cursor: pointer;
+}
 #css-pic-showing {
+  cursor: pointer;
   display: none;
 }
 
@@ -59,6 +69,14 @@ body {
 }
 
 /*Java webpage*/
+#java-pic-hidden {
+  cursor: pointer;
+}
+#java-pic-showing {
+  cursor: pointer;
+  display: none;
+}
+
 #java-body {
   background-color: #f9d5e5;
   color: #c83349;
@@ -84,6 +102,15 @@ body {
 }
 
 /*csharp webpage*/
+#csharp-pic-hidden{
+  cursor: pointer;
+}
+
+#csharp-pic-showing {
+  cursor: pointer;
+  display: none;
+}
+
 #csharp-body {
   background-color: #ffeead;
   color: #ff6f69;
