@@ -22,10 +22,83 @@ body {
   color: #3700c1;
 }
 
-
 .border {
   margin: 10;
   border: 2px solid white;
   border-width: thick;
   padding: 10px;
+}
+
+/*desgin webpage*/
+#desgin-body {
+  background-color: #d5f4e6;
+  color: #36486b;
+}
+.desgin-h3 {
+  background-color:#36486b;
+  color: #fefbd8;
+  border: 2px solid #fefbd8;
+  border-width: thick;
+  padding: 10px;
+}
+
+.desgin-border {
+  color: #36486b;
+  border: 2px solid #fefbd8;
+  border-width: thick;
+  padding: 10px;
+}
+
+.desgin-p {
+  font-weight: bold;
+}
+
+/*Java webpage*/
+#java-body {
+  background-color: #f9d5e5;
+  color: #c83349;
+}
+.java-h3 {
+  background-color:#eeac99;
+  color: #e06377;
+  border: 2px solid #fefbd8;
+  border-width: thick;
+  padding: 10px;
+}
+
+.java-border {
+  color: #36486b;
+  border: 2px solid #fefbd8;
+  border-width: thick;
+  padding: 10px;
+}
+
+.java-p {
+  font-weight: bold;
+  color: #e06377;
+}
+
+/*csharp webpage*/
+#csharp-body {
+  background-color: #ffeead;
+  color: #ff6f69;
+}
+.csharp-h3 {
+  background-color:#ffcc5c;
+  color: #ff6f69;
+  border: 2px solid #96ceb4;
+  border-width: thick;
+  padding: 10px;
+}
+
+.csharp-border {
+  color: #36486b;
+  border: 2px solid #96ceb4;
+  border-width: thick;
+  padding: 10px;
+}
+
+.csharp-p {
+  font-weight: bold;
+  color: #ff6f69;
 }
