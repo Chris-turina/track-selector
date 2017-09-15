@@ -14,6 +14,17 @@ $(document).ready(function(){
       var scoreOne = parseInt($("input:radio[name=things]:checked").val());
       var scoreTwo = parseInt($("input:radio[name=room]:checked").val());
       event.preventDefault();
+
+    var totalScore = scoreOne + scoreTwo;
+      if (totalScore === 2) {
+        var output = "You should take the CSS-Desgin course"
+        $("#css-desgin").show();
+        $("output").text(output);
+      } else if (totalScore >= 3 && totalScore <= 5) {
+        var output = "You should take the C# .NET course"
+        $("#csharp-net").show();
+        $("output").text(output);
+      }
     });
   });
 });
