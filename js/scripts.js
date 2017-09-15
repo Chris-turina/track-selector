@@ -54,18 +54,24 @@ $(document).ready(function(){
       var scoreFive = parseInt($("input:radio[name=q5]:checked").val());
       event.preventDefault();
 
+    var fullName = $("input#name").val();
     //start of var if
     var totalScore = scoreOne + scoreTwo + scoreThree + scoreFour +scoreFive;
       if (totalScore <= 8 || totalScore === 8) {
-        var output = "How Privileged Are You?"
+        var output = "css-desgin"
+        $(".name").text(fullName);
         $("#css-desgin").show();
         $("#answer").show();
       } else if (totalScore >=9 && totalScore <= 12) {
-        var output = "Which Disney Princess Are You?"
+        var output = "java-android"
+        $(".name").text(fullName);
         $("#java-android").show();
+        $("#answer").show();
       } else if (totalScore >=13 && totalScore <= 15) {
-        var output = "What's Your Real Age?"
+        var output = "csharp-net"
+        $(".name").text(fullName);
         $("#csharp-net").show();
+        $("#answer").show();
       }
     });
   });
