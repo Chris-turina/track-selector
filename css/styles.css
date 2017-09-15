@@ -8,5 +8,24 @@ h1 {
   text-align: center;
 }
 .well {
-  background-color:;
+color: black;
+background-color: #4497d4
+}
+
+p {
+  font-size: 15px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color:#bfe8fb;
+  color: #3700c1;
+}
+
+
+.border {
+  margin: 10;
+  border: 2px solid white;
+  border-width: thick;
+  padding: 10px;
 }

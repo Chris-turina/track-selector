@@ -10,9 +10,9 @@ $(document).ready(function(){
       var scoreFive = parseInt($("input:radio[name=q5]:checked").val());
       event.preventDefault();
     });
-  });
+
   // button2 function
-  $("button#button2").click(function(){
+
     $("form#question2").submit(function(event){
       var scoreOne = parseInt($("input:radio[name=q1]:checked").val());
       var scoreTwo = parseInt($("input:radio[name=q2]:checked").val());
@@ -21,9 +21,9 @@ $(document).ready(function(){
       var scoreFive = parseInt($("input:radio[name=q5]:checked").val());
       event.preventDefault();
     });
-  });
+
   // button3 function
-  $("button#button3").click(function(){
+
     $("form#question3").submit(function(event){
       var scoreOne = parseInt($("input:radio[name=q1]:checked").val());
       var scoreTwo = parseInt($("input:radio[name=q2]:checked").val());
@@ -32,9 +32,9 @@ $(document).ready(function(){
       var scoreFive = parseInt($("input:radio[name=q5]:checked").val());
       event.preventDefault();
     });
-  });
+
   // button4 function
-  $("button#button4").click(function(){
+
     $("form#question4").submit(function(event){
       var scoreOne = parseInt($("input:radio[name=q1]:checked").val());
       var scoreTwo = parseInt($("input:radio[name=q2]:checked").val());
@@ -43,9 +43,9 @@ $(document).ready(function(){
       var scoreFive = parseInt($("input:radio[name=q5]:checked").val());
       event.preventDefault();
     });
-  });
+
   //button5 function
-  $("button#button5").click(function(){
+
     $("form#question5").submit(function(event){
       var scoreOne = parseInt($("input:radio[name=q1]:checked").val());
       var scoreTwo = parseInt($("input:radio[name=q2]:checked").val());
@@ -56,14 +56,14 @@ $(document).ready(function(){
 
     //start of var if
     var totalScore = scoreOne + scoreTwo + scoreThree + scoreFour +scoreFive;
-      if (totalScore === 5) {
+      if (totalScore <= 8 || totalScore === 8) {
         var output = "How Privileged Are You?"
         $("#css-desgin").show();
         $("#answer").show();
-      } else if (totalScore >=6 && totalScore <= 10) {
+      } else if (totalScore >=9 && totalScore <= 12) {
         var output = "Which Disney Princess Are You?"
         $("#java-android").show();
-      } else if (totalScore >=11 && totalScore <= 15) {
+      } else if (totalScore >=13 && totalScore <= 15) {
         var output = "What's Your Real Age?"
         $("#csharp-net").show();
       }
