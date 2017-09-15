@@ -55,19 +55,16 @@ $(document).ready(function(){
       event.preventDefault();
 
     //start of var if
-    var totalScore = scoreOne + scoreTwo + scoreThree + scoreFour + scoreFive;
+    var totalScore = scoreOne + scoreTwo + scoreThree + scoreFour +scoreFive;
       if (totalScore === 5) {
-        var output = "You should take the CSS-Desgin course"
+        var output = "How Privileged Are You?"
         $("#css-desgin").show();
-        $("output").text(output);
-      } else if (totalScore >= 6 && totalScore <= 11) {
-        var output = "You should take the C# .NET course"
-        $("java-android").show();
-        $("output").text(output);
-      } else if (totalScore >= 11 && totalScore <= 15) {
-        var output = "You should take the C# .NET course"
+      } else if (totalScore >=6 && totalScore <= 10) {
+        var output = "Which Disney Princess Are You?"
+        $("#java-android").show();
+      } else if (totalScore >=11 && totalScore <= 15) {
+        var output = "What's Your Real Age?"
         $("#csharp-net").show();
-        $("output").text(output);
       }
     });
   });
