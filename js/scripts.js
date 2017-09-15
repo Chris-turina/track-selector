@@ -59,6 +59,7 @@ $(document).ready(function(){
       if (totalScore === 5) {
         var output = "How Privileged Are You?"
         $("#css-desgin").show();
+        $("#answer").show();
       } else if (totalScore >=6 && totalScore <= 10) {
         var output = "Which Disney Princess Are You?"
         $("#java-android").show();
