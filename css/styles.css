@@ -29,7 +29,10 @@ body {
   padding: 10px;
 }
 
-/*desgin webpage*/
+/*css/desgin webpage*/
+#pic-css {
+  display: none;
+}
 #desgin-body {
   background-color: #d5f4e6;
   color: #36486b;
