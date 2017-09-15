@@ -11,7 +11,8 @@
   </head>
   <body>
     <div class="container">
-      <form id="submit" action="index.html" method="post">
+      <!--QUESTION1-->
+      <form id="question1" action="index.html" method="post">
         <label for="name">Please Input Your Name Here</label>
           <input id="name "type="text" name="name">
 
@@ -22,16 +23,28 @@
           </label>
         </div>
         <div class="radio">
-          <label for="ques2-answer2">
+          <label for="ques1-answer2">
             <input type="radio" name="things" value="2">I like how things work.
           </label>
         </div>
-
+        <div class="radio">
+          <label for="ques1-answer3">
+            <input type="radio" name="things" value="3">I like both.
+          </label>
+        </div>
+        <button type="button" name="button">Submit Answer</button>
+        <!--END OF QUESTION1-->
 
 
 
 
       </form>
+      <h3 id="answer">Your recommended Course is:</h3>
+      <img id="css-desgin"src="" alt="css-desgin">
+      <img id="csharp-net"src="" alt="csharp-net">
+      <img id="java-android"src="" alt="java-android">
+
+
     </div>
   </body>
 </html>
