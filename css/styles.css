@@ -30,13 +30,15 @@ body {
 }
 
 /*css/desgin webpage*/
-#pic-css {
+#css-pic-showing {
   display: none;
 }
+
 #desgin-body {
   background-color: #d5f4e6;
   color: #36486b;
 }
+
 .desgin-h3 {
   background-color:#36486b;
   color: #fefbd8;

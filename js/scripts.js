@@ -75,7 +75,7 @@ $(document).ready(function(){
 
   //css-desgin
   $(".clickable").click(function(){
-    $("#css-pic-hidden").fadeToggle();
     $("#css-pic-showing").fadeToggle();
+    $("#css-pic-hidden").fadeToggle();
   });
 });
